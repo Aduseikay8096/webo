@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>Welcome to the homepage!</h1>
+     <form action="{% url 'about' %}" method="get">
+        <button type="submit">Learn more about us</button>
+    </form>
+    
+    <form action="{% url 'contact' %}" method="get">
+        <button type="submit">contact us</button>
+    </form>
+</body>
+</html>
